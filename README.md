@@ -76,3 +76,16 @@ Include taxonomy in the `class-plugin-ocooking.php`
  */
 require_once plugin_dir_path( dirname( __FILE__ ) ) . 'taxonomies/taxonomy-typet.php';
 ```
+
+Vérifier liste roles en console
+
+```
+wp role list
+```
+
+Désactiver theme => dans `web/index.php'
+
+```
+define('WP_USE_THEMES', true);
+```
+

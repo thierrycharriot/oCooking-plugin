@@ -44,7 +44,7 @@ function ingredient_init() {
 			'back_to_items'              => __( '&larr; Back to Ingredients', 'YOUR-TEXTDOMAIN' ),
 		],
 		'show_in_rest'          => true,
-		'rest_base'             => 'ingredient',
+		'rest_base'             => 'ingredients',
 		'rest_controller_class' => 'WP_REST_Terms_Controller',
 	] );
 

@@ -1,5 +1,7 @@
 <?php
 
+require_once plugin_dir_path( dirname( __FILE__ ) ) . 'class/Role.php';
+
 /**
  * Fired during plugin activation
  *
@@ -30,7 +32,7 @@ class Plugin_Ocooking_Activator {
 	 * @since    1.0.0
 	 */
 	public static function activate() {
-
+		Role::add_role_cook();
 	}
 
 }

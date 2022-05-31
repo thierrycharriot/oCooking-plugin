@@ -44,7 +44,7 @@ function type_init() {
 			'back_to_items'              => __( '&larr; Back to Types', 'YOUR-TEXTDOMAIN' ),
 		],
 		'show_in_rest'          => true,
-		'rest_base'             => 'type',
+		'rest_base'             => 'types',
 		'rest_controller_class' => 'WP_REST_Terms_Controller',
 	] );
 

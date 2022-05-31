@@ -30,7 +30,7 @@ class Plugin_Ocooking_Deactivator {
 	 * @since    1.0.0
 	 */
 	public static function deactivate() {
-
+		remove_role( 'cook' );
 	}
 
 }
