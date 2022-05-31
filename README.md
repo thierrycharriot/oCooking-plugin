@@ -5,7 +5,7 @@
 
 In the root ot the website
 
-````
+```
 wp scaffold post-type cpt-recette --label=Recette --plugin=plugin-ocooking
 ```
 
