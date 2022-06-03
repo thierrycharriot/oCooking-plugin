@@ -38,7 +38,7 @@ function cpt_recipe_init() {
 			'hierarchical'          => false,
 			'show_ui'               => true,
 			'show_in_nav_menus'     => true,
-			'supports'              => [ 'title', 'editor' ],
+			'supports'              => [ 'title', 'editor', 'thumbnail' ],
 			'has_archive'           => true,
 			'rewrite'               => true,
 			'query_var'             => true,
